@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Kartu_Anorganikkk" size="10.000000 7.093822" />
+    <ImageTarget name="Kartu_Organikk" size="10.000000 7.093822" />
+    <ImageTarget name="Kartu_B3" size="10.000000 7.093822" />
+  </Tracking>
+</QCARConfig>
