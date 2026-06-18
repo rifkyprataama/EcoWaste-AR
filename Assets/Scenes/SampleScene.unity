@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 461413884}
   - component: {fileID: 461413883}
   - component: {fileID: 461413882}
+  - component: {fileID: 461413885}
   m_Layer: 0
   m_Name: Canvas (1)
   m_TagString: Untagged
@@ -377,6 +378,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &461413885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461413880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb508dcb67dca14ba3c0929abb54828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FaceCamera
 --- !u!1 &472325659
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +402,7 @@ GameObject:
   - component: {fileID: 472325663}
   - component: {fileID: 472325662}
   - component: {fileID: 472325661}
+  - component: {fileID: 472325664}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -481,6 +495,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &472325664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472325659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb508dcb67dca14ba3c0929abb54828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FaceCamera
 --- !u!1 &500450947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,6 +1736,7 @@ GameObject:
   - component: {fileID: 1518940026}
   - component: {fileID: 1518940025}
   - component: {fileID: 1518940024}
+  - component: {fileID: 1518940027}
   m_Layer: 0
   m_Name: Canvas (2)
   m_TagString: Untagged
@@ -1802,6 +1829,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1518940027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518940022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb508dcb67dca14ba3c0929abb54828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FaceCamera
 --- !u!1 &1591268874
 GameObject:
   m_ObjectHideFlags: 0
