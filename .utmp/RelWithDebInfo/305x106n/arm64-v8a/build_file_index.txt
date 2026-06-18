@@ -1,0 +1,3 @@
+D:\Semester 6\Grafika Komputer\EcoWaste_AR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\Semester 6\Grafika Komputer\EcoWaste_AR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
+D:\Semester 6\Grafika Komputer\EcoWaste_AR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
