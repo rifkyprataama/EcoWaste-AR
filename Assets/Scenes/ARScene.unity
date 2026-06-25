@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 166369837}
   - component: {fileID: 166369836}
   - component: {fileID: 166369839}
+  - component: {fileID: 166369840}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -470,6 +471,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TapButton
   sceneName: MainMenu
   loadAsync: 0
+--- !u!114 &166369840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166369832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097b1176aaa348c439168efbfa25a948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playsfx
+  sfxClip: {fileID: 8300000, guid: e5165696590beb74da029265196050b2, type: 3}
+  button: {fileID: 166369836}
 --- !u!1001 &254816191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3875,6 +3890,7 @@ GameObject:
   - component: {fileID: 1979041755}
   - component: {fileID: 1979041754}
   - component: {fileID: 1979041751}
+  - component: {fileID: 1979041757}
   m_Layer: 5
   m_Name: DownloadMarkerButton
   m_TagString: Untagged
@@ -4004,6 +4020,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979041749}
   m_CullTransparentMesh: 1
+--- !u!114 &1979041757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979041749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097b1176aaa348c439168efbfa25a948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playsfx
+  sfxClip: {fileID: 8300000, guid: 753b1f2d2aef3ab47975950b48c4d391, type: 3}
+  button: {fileID: 1979041754}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
