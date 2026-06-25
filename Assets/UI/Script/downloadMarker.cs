@@ -2,6 +2,7 @@ using System.Collections;
 using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
+using System.Text.RegularExpressions;
 
 public class downloadMarker : MonoBehaviour
 {
@@ -29,6 +30,24 @@ public class downloadMarker : MonoBehaviour
 
     IEnumerator DownloadAndSave(string url, string saveName)
     {
+        // If URL is a Google Drive sharing link, convert to a direct download link
+        if (!string.IsNullOrEmpty(url) && url.Contains("drive.google.com"))
+        {
+            string id = null;
+            // try to extract id from common patterns
+            var m = Regex.Match(url, "/d/([a-zA-Z0-9_-]+)");
+            if (m.Success)
+                id = m.Groups[1].Value;
+            else
+            {
+                m = Regex.Match(url, "[?&]id=([a-zA-Z0-9_-]+)");
+                if (m.Success) id = m.Groups[1].Value;
+            }
+
+            if (!string.IsNullOrEmpty(id))
+                url = "https://drive.google.com/uc?export=download&id=" + id;
+        }
+
         using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(url))
         {
             yield return uwr.SendWebRequest();
